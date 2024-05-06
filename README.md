@@ -20,9 +20,6 @@ A nossa aplicação vai acabar com os seus problemas, por oferecer um catálogo 
 
 Este projeto em grupo foi realizado durante a matéria Trabalho Interdisciplinar 1 no curso de Engenharia de Software da PUC Minas. Foi reconhecido como um dos melhores trabalhos do semestre.
 
+![Certificado PUC Minas](T1-Certificado.jpeg)
 
-
-## Instruções de utilização
-
-Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.
 
