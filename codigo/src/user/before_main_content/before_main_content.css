@@ -1,0 +1,100 @@
+:root {
+    --before-main-content-menu-height: 40px;
+}
+
+.before-main-content-talent-tracker {
+    color: var(--black-color);
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+.before-main-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* width: 500px;
+    height: 600px; */
+    width: 50vw;
+    height: 80vh;
+    background-color: var(--main-bg-window);
+    border: solid 5px var(--black-color);
+    padding: 0;
+    margin: 0;
+    box-shadow: 5px 10px var(--black-color);
+}
+
+.before-main-content-menu {
+    border-bottom: solid 5px var(--black-color);
+}
+
+.before-main-content-title {
+    width: 80%;
+    height: var(--before-main-content-menu-height);
+    font-weight: 900;
+    font-size: 1.2rem;
+}
+
+.before-main-content-options {
+    width: 20%;
+}
+
+.before-main-content-options > div {
+    margin-right: 10px;
+}
+
+.before-main-content-area {
+    width: 100%;
+    height: calc(100% - var(--before-main-content-menu-height) - 5px);
+}
+
+.new-user-form {
+    margin: auto;
+    padding-top: 5%;
+    width: 90%;
+}
+
+.login-form {
+    margin: auto;
+    padding-top: 5%;
+    width: 90%;
+}
+
+/* .does-not-have-account {
+    height: 200px;
+} */
+
+.go-to-crete {
+    font-weight: 900;
+    color: var(--black-color);
+    cursor: pointer;
+}
+
+.go-to-crete:hover {
+    color: var(--orange-color);
+}
+
+.create-new-user {
+    max-height: 40px;
+}
+
+.back-to-login-button {
+    text-align: end;
+}
+
+@media (max-width: 767.98px) {
+    .before-main-content {
+        width: 80vw;
+        height: 80vh;
+    }
+    .before-main-content-options > div {
+        margin-right: 10px;
+    }
+    .back-to-login-button {
+        text-align: center;
+    }
+    .new-user-button {
+        text-align: center;
+        padding-bottom: 10px;
+    }
+}

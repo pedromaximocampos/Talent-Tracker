@@ -1,0 +1,98 @@
+:root {
+   --main-bg: #DBCFC3;
+    --main-bg-window: #FCF6E8;
+    --orange-color: #FF8552;
+    --orange-ultra-ligth-color: #FFEADE;
+    --orange-ligth-color: #FDBC96;
+    --orange-medium-color: #EC642A;
+    --orange-heavy-color: #BE4410;
+    --black-color: #131313;
+    --black-heavy-color: #030202;
+    --grey-main-color: #535353;
+    --grey-ligth-color: #898888;
+    --purple-color: #DAC2CF;
+    --bg-brown: #AFA69C;
+    --brown-heavy-color: #62574B;
+    --brown-medium-color: #8B8074;
+    --green-ligth-color: #D3E3D6;
+    --green-medium-color: #A9B6AB;
+    --green-heavy-color: #8D978F;
+    --blue-main-color: #3D76A5;
+    --blue-heavy-color: #124B7B;
+    --blue-medium-color: #246398;
+    --blue-ligth-color: #5E93BF;
+    --blue-ultra-ligth-color: #8FB8DA;
+    --gren-blue-ultra-ligth-color: #91A9AC;
+    --red-color: #D7263D;
+    --red-ultra-ligth-color: #F57889;
+    --red-ligth-color: #E74D62;
+    --red-medium-color: #AF1026;
+    --red-heavy-color: #8A0013;
+
+    --main-window-menu-height: 50px;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+  
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px var(--grey-main-color); 
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: var(--orange-medium-color); 
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: var(--orange-heavy-color); 
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins';
+    color: var(--black-color);
+    background-color: var(--main-bg);
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.error-message {
+    color: var(--red-color);
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+.circle-repeat {
+  
+    --size: 1rem;
+    
+    background-image: radial-gradient(ellipse, var(--brown-medium-color) 0%, var(--brown-medium-color) 30%, transparent 34%);
+    background-size: var(--size) var(--size);
+    width: 100%;
+    height: 60vh;
+    position: absolute;
+    top: 40%;
+    z-index: -99;
+}

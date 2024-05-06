@@ -1,0 +1,27 @@
+.create-new-profile-provider-text {
+    font-weight: 900;
+    color: var(--black-color);
+    cursor: pointer;
+}
+
+.create-new-profile-provider-text:hover {
+    color: var(--orange-color);
+}
+
+.profile-provider-form-area {
+    height: 95%;
+    overflow-y: auto;
+}
+
+.profile-provider-form-description {
+    width: 100%;
+    height: 20vh;
+    min-height: 20vh;
+    max-height: 30vh;
+    background-color: var(--green-ligth-color);
+    border: none;
+}
+
+.profile-provider-form-map-area {
+    height: 30vh;
+}

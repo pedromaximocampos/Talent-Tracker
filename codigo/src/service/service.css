@@ -1,0 +1,122 @@
+:root {
+    --service-menu-area-height: 60px
+}
+
+.create-new-service-text {
+    font-weight: 900;
+    color: var(--black-color);
+    cursor: pointer;
+}
+
+.create-new-service-text:hover {
+    color: var(--orange-color);
+}
+
+.profile-service-form-area {
+    height: 95%;
+    overflow-y: auto;
+}
+
+.svg-service-form-info {
+    width: 15px;
+    height: 15px;
+    fill: var(--black-color);
+}
+
+.svg-service-form-info:hover {
+    fill: var(--orange-color);
+}
+
+.label-tooltip-form {
+    display: flex;
+    justify-content: start;
+    align-items: end;
+}
+
+.label-tooltip-form > label {
+    margin: 0;
+    padding-right: 10px;
+}
+
+.service-form-img-svg {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: 80%;
+    left: 55%;
+}
+
+.service-form-img-svg-svg {
+    cursor: pointer;
+    fill: var(--gren-blue-ultra-ligth-color);
+}
+
+.service-form-img-svg-svg:hover {
+    fill: var(--blue-ultra-ligth-color);
+}
+
+.service-menu-area {
+    height: var(--service-menu-area-height);
+}
+
+.profile-service-form-description {
+    width: 100%;
+    height: 20vh;
+    min-height: 20vh;
+    max-height: 30vh;
+    background-color: var(--green-ligth-color);
+    border: none;
+}
+
+.services_accordion_area {
+    height: 89%;
+    overflow-y: auto;
+}
+
+.service_accordion_body_area {
+    background-color: var(--orange-ligth-color);
+}
+
+.svg-edit-service-box {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.svg-delete-service-box {
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+}
+
+.svg-edit-service {
+    stroke: var(--black-color);
+}
+
+.svg-edit-service {
+    stroke: var(--black-color);
+}
+
+.profile-service-form-map-area {
+    height: 30vh;
+}
+
+.services_card {
+    background-color: red;
+    width: 100%;
+    height: 100%;
+}
+
+.service_title {
+    font-weight: 700;
+    color: var(--black-color);
+    cursor: pointer;
+}
+
+.service_title:hover {
+    color: var(--grey-ligth-color);
+}
+
+.services_area {
+    height: 100%;
+}

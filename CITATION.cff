@@ -1,0 +1,27 @@
+cff-version: 1.0.1
+message: Please cite this software using these metadata.
+title: Talent Tracker
+authors:
+  - family-names: Pimentel Carvalho Costa
+    given-names: Gustavo
+  - family-names: Taveira Guimarães
+    given-names: Hamon-Rá
+  - family-names: Felipe Barbosa Lopes
+    given-names: Mateus
+  - family-names: Máximo Campos do Carmo
+    given-names: Pedro
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Barbosa da Fonseca
+    given-names: Gabriel
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Silva Tavares
+    given-names: Cleiton
+keywords:
+  - Consulta de serviços
+  - Agendamento de serviços
+repository-code: https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2023-2-ti1-0387100-talenttracker
+license: CC-BY-4.0
+version: 1.0.0
+date-released: 2023-12-20

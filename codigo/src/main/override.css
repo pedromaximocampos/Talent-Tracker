@@ -1,0 +1,43 @@
+.btn {
+    background-color: var(--orange-ligth-color);
+}
+
+.btn:hover {
+    background-color: var(--orange-medium-color);
+}
+
+.form-control {
+    background-color: var(--green-ligth-color);
+}
+
+.form-control:focus {
+    box-shadow: 0 0 0 0.25rem var(--purple-color);
+    background-color: var(--orange-ultra-ligth-color);
+}
+
+.form-control:disabled {
+    background-color: var(--gren-blue-ultra-ligth-color);
+}
+
+.btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active {
+    border: none;
+    background-color: var(--orange-ligth-color);
+}
+
+.form-select {
+    background-color: var(--green-ligth-color);
+}
+
+.form-select:focus {
+    border-color: var(--purple-color);
+    box-shadow: 0 0 0 0.25rem var(--purple-color);
+    background-color: var(--orange-ultra-ligth-color);
+}
+
+textarea[disabled] {
+    background-color: var(--gren-blue-ultra-ligth-color);
+}
+
+.list-group-item {
+    border: 2px solid var(--black-color);
+}

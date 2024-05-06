@@ -1,0 +1,64 @@
+:root {
+    --main-profiles-area-height: 80px;   
+}
+
+.user-profile-form-area {
+    height: 95%;
+    overflow-y: auto;
+}
+
+.main-profiles-area {
+    height: var(--main-profiles-area-height);
+}
+
+.profiles-area {
+    width: 100%;
+    height: calc(100% - var(--main-profiles-area-height));
+}
+
+.user-profile-area {
+    position: relative;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.logout-button {
+    background-color: var(--red-color);
+    color: white;
+}
+
+.logout-button:hover {
+    background-color: var(--red-ultra-ligth-color);
+}
+
+.logout-question {
+    padding-top: 10px;
+}
+
+.logout-button-no {
+    background-color: var(--red-color);
+    color: white;
+}
+
+.logout-button-no:hover {
+    background-color: var(--red-ultra-ligth-color);
+}
+
+.user-select-profile {
+    text-align: start;
+}
+
+.user-logout-profile {
+    text-align: end;
+}
+
+@media (max-width: 767.98px) {
+    .user-select-profile {
+        text-align: center;
+    }
+    
+    .user-logout-profile {
+        text-align: center;
+    }
+}
